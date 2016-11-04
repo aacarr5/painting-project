@@ -39,3 +39,6 @@ gem 'bourbon'
 gem 'bitters'
 gem 'neat'
 gem 'refills'
+
+#APP SPECIFIC 
+gem 'aws-sdk', '~> 2'
