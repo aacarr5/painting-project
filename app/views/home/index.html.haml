@@ -1,0 +1,9 @@
+%h1 Welcome
+
+%br 
+
+- if administrator_signed_in?
+	= link_to "Add new paintings", new_painting_path
+	= link_to "Add new categories", new_category_path
+- else 
+	= link_to "Sign In", new_administrator_session_path
